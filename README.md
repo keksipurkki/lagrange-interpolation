@@ -9,6 +9,9 @@ MathWorld](http://mathworld.wolfram.com/LagrangeInterpolatingPolynomial.html)
 
 The interpolation formula can reformulated in matrix notation:
 
+[The Lagrange interpolation formula](lip_equation.png?raw=true "The Lagrange interpolation formula")
+
+<!--
 ```tex
 Represent any function $f=f(x)$ along \(x=(x_{1}, x_{2},\dots
 x_{j},\dots x_{N})\) with a $M-1$ order Lagrange interpolation
@@ -27,4 +30,5 @@ polynomial:
 where the grid points $x_{i}$ satisfy $f(x_{i})\equiv f_{i}$ and the
 product is over the grid points.
 ```
+-->
 
