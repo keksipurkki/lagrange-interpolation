@@ -3,8 +3,8 @@
 
 """
 
-  An implementation of Lagrange interpolation polynomials for 1D
-  functions
+  An implementation of Lagrange interpolation polynomials
+  for 1D functions.
 
 """
 
@@ -29,13 +29,13 @@ class Lip(object):
             Coordinates where `y` will be interpolated.
 
         ncell: integer
-            Split the interval x[0]..x[-1] to `ncell` cells
+            Split the interval x[0]..x[-1] into `ncell` cells
 
         """
 
         f = ones((x.size, self.n))
 
-        # Partition the input variable to cells,
+        # Partition the input variable `x` into cells;
         # raises an error if not divisible evenly.
         cells = split(x, ncell)
         maxs = map(size, cells)

@@ -7,7 +7,7 @@ MathWorld](http://mathworld.wolfram.com/LagrangeInterpolatingPolynomial.html)
 
 ## The code
 
-The interpolation formula can reformulated in matrix notation:
+The interpolation formula can expressed in matrix notation:
 
 ![The Lagrange interpolation formula](lip_equation.png?raw=true "The Lagrange interpolation formula")
 
